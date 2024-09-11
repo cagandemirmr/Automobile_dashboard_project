@@ -46,10 +46,11 @@ Next, i select and rename STATES as "Dönemler".And i opened Developer tab to cr
 
 ![image](https://github.com/user-attachments/assets/9b38785a-33f0-486d-a387-377f468233eb)
 
-Under Properities section,i assign "Dönemler" to ListFillRange.
+Under Properities section in listbox,i assign "Dönemler" to "ListFillRange" and assign output to "LinkedCell" in properities.
 
 ![image](https://github.com/user-attachments/assets/74ec11b0-a31c-4179-ade6-778535e94198)
 
+And i create  values by SUMIFS(DATA!$E:$E;DATA!$B:$B;Parameters!$A1;DATA!$H:$H;$C$1), as a total value, i choose net sales amount,as a statement, i choose  YEARS in DATA and "Dönemler" output.Also, i choose  
 
 
 
