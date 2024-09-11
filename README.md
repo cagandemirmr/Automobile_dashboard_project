@@ -43,8 +43,11 @@ First of all, i checked dataset for duplicates, missing values and  wrong format
 
 Secondly, i need unique values such as STATES, YEAR and PRODUCTS to create tables and listbox. Thus, i use UNIQUE function to define these values.
 Next, i select and rename STATES as "Dönemler".And i opened Developer tab to create list box under Add tab.
+
 ![image](https://github.com/user-attachments/assets/9b38785a-33f0-486d-a387-377f468233eb)
+
 Under Properities section,i assign "Dönemler" to ListFillRange.
+
 ![image](https://github.com/user-attachments/assets/74ec11b0-a31c-4179-ade6-778535e94198)
 
 
