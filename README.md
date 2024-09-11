@@ -40,7 +40,9 @@ I will use Parameters sheet for creating tables.
 First of all, i checked dataset for duplicates, missing values and  wrong formatted values.But dataset was clean thus i convert datas into table.
 ![image](https://github.com/user-attachments/assets/34f6e7a4-b0db-4255-a091-6cf48e4a05e6)
 
-Secondly, i need unique STATES to calculate total net sales by YEAR.
+Secondly, i need unique values such as STATES, YEAR and PRODUCTS to create tables and listbox. Thus,
+
+
 
 
 
