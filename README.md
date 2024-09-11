@@ -42,7 +42,7 @@ First of all, i checked dataset for duplicates, missing values and  wrong format
 ![image](https://github.com/user-attachments/assets/34f6e7a4-b0db-4255-a091-6cf48e4a05e6)
 
 Secondly, i need unique values such as STATES, YEAR and PRODUCTS to create tables and listbox. Thus, i use UNIQUE function to define these values.
-Next, i select and rename STATES as "Dönemler".And i opened Developer tab to create list box under Add tab.
+Next, i select and rename STATES as "Dönemler".And i opened Developer tab to create list box under Add tab >> Active X.
 
 ![image](https://github.com/user-attachments/assets/9b38785a-33f0-486d-a387-377f468233eb)
 
