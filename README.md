@@ -29,6 +29,20 @@ In terms of pop up pages,they can be hidden by close button and can be opened by
 In Region Report,it shows general performance of products by sales and have two main list box which are STATES and YEAR to calculate real,target values and T/R ratio.
 In Salesman Report, it has three listbox and shows total sales by products.
 
+# PREPERATION
+Before working on datas, i collect all PNG files related to brands in images sheet on Excel.
+![image](https://github.com/user-attachments/assets/c9eb7d1f-aa78-4d84-b8bf-df852c92a077)
+and create Parameters and Dashboard sheets on Excel.
+I will use Parameters sheet for creating tables.
+
+
+# PROCESS
+First of all, i checked dataset for duplicates, missing values and  wrong formatted values.But dataset was clean thus i convert datas into table.
+![image](https://github.com/user-attachments/assets/34f6e7a4-b0db-4255-a091-6cf48e4a05e6)
+
+Secondly, i need unique STATES to calculate total net sales by YEAR.
+
+
 
 
 
