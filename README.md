@@ -32,6 +32,7 @@ In Salesman Report, it has three listbox and shows total sales by products.
 # PREPERATION
 Before working on datas, i collect all PNG files related to brands in images sheet on Excel.
 ![image](https://github.com/user-attachments/assets/c9eb7d1f-aa78-4d84-b8bf-df852c92a077)
+
 and create Parameters and Dashboard sheets on Excel.
 I will use Parameters sheet for creating tables.
 
