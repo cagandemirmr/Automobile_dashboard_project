@@ -58,6 +58,62 @@ Based on this information, i create kartogram.
 ![image](https://github.com/user-attachments/assets/dfc17b3c-aae0-43e9-a294-cad636b9067f)
 
 
+I repeat same process with SUMIF function for the total sales of PRODUCT's KPI according to selected YEAR.
+
+![image](https://github.com/user-attachments/assets/44786c77-5f69-45bb-9075-699f3e13b0a3)
+
+
+Thus i assign each value related to PRODUCT.
+![image](https://github.com/user-attachments/assets/3e6d5eec-d1ab-4480-89cc-3b9667b03928)
+
+Also, create bar graph from this table.
+
+![image](https://github.com/user-attachments/assets/461553b9-c91b-41eb-90d8-9b2de159cebf)
+
+I repeat same process for the total sales and total target sales by YEAR.So i create table to show their KPI in the Dashboard.
+![image](https://github.com/user-attachments/assets/2ba48e0a-5ba8-465e-aac0-4f86002a2b6b)
+
+![image](https://github.com/user-attachments/assets/d7898a9f-498a-4819-b6b2-d89bb9021aa5)
+
+In addition to that i want to create indicator.Thus i need to define rotation limit for my indicator.First i divide Total sales by Total target in F4 cell.Then i write function "IF(F14>=1;1;F14)" that if value is beyond 100 per cent it will stop at 1 otherwise it will show value in the cell.
+![image](https://github.com/user-attachments/assets/59d80528-9935-47fa-b543-5c8d5b2f3ef8)
+
+First I create arrow then allign to the middle of indicator panel.And rename it as "ibre".
+In the developer panel in Excel, i activate the creaor mode and assign makro to the "ibre" and write the code below.With these my indicator panel works will change by year.
+![image](https://github.com/user-attachments/assets/3e9751bb-b464-42ce-ac56-469f56690864)
+
+In the last part in the main dashboard, i create panel for stable graphic to show changes by using unique values in PRODUCTS and YEAR.
+![image](https://github.com/user-attachments/assets/855dbf58-605d-48ae-853f-d21b59861574)
+
+![image](https://github.com/user-attachments/assets/05787c89-6bd1-4dc1-9044-38bcf7c9d74f)
+
+At the and of dessigning dashboard, i add buttons for "Salesman Report" and "Region Report".
+It looks like this in the end of Dashboard design.
+![image](https://github.com/user-attachments/assets/f1725bd3-c5cb-4bf5-95cf-63175f43bc4b)
+
+All process was the same in exept closing and opening windows.In "Salesman Report" , i lastly design closing cross, define all dashboard as "bolge" and define macro and write code like below.
+
+![image](https://github.com/user-attachments/assets/1cec8652-d0c4-444c-a19f-be9e0332c2f7)
+
+I define same code to the button with little changes like using "True" statement instead af "False" statement.
+
+![image](https://github.com/user-attachments/assets/79747a50-4dc2-4d79-af5e-6ae6c8b2ab9a)
+
+![image](https://github.com/user-attachments/assets/5747a22d-6d65-4caa-9e57-c8bde3952c15)
+
+
+I reapeat same process in "Region Report".
+![image](https://github.com/user-attachments/assets/7afa86b3-a1c6-4b8d-9147-894cb6112d65)
+
+
+
+
+
+
+
+
+
+
 
 
 
