@@ -50,7 +50,15 @@ Under Properities section in listbox,i assign "Dönemler" to "ListFillRange" and
 
 ![image](https://github.com/user-attachments/assets/74ec11b0-a31c-4179-ade6-778535e94198)
 
-And i create  values by SUMIFS(DATA!$E:$E;DATA!$B:$B;Parameters!$A1;DATA!$H:$H;$C$1), as a total value, i choose net sales amount,as a statement, i choose  YEARS in DATA and "Dönemler" output.Also, i choose  
+And i create  values by SUMIFS, as a total value, i choose net sales amount,as a statement, i choose  YEARS in DATA and "Dönemler" output.Also, i choose STATES in DATA sheet and unique STATES in parameter sheet to adjust total values by YEAR and STATE values.
+
+![image](https://github.com/user-attachments/assets/fa57cad6-0650-4d10-ab81-96ff9af077db)
+
+Based on this information, i create kartogram.
+![image](https://github.com/user-attachments/assets/dfc17b3c-aae0-43e9-a294-cad636b9067f)
+
+
+
 
 
 
